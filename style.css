@@ -1,0 +1,252 @@
+/*
+	Theme Name: LTSC v1.0
+	Theme URL: www.lateleseguncaamano.com
+	Description: Tema dinamico y responsive de LTSC
+	Version: 1.0
+	Author: Roberto Caamaño
+	Author URL: www.lateleseguncaamano.com
+*/
+
+body{
+	font-family: "Open Sans", Arial, Times New Roman;
+	color: #737373;
+	padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+}
+
+body a {
+	color: #700000;
+}
+
+body a:hover {
+	text-decoration: none;
+	color: #707070;
+}
+
+ul, li {
+    padding-left:0 !important;
+    margin-left:0 !important;
+}
+
+/*img.single_thumbs {
+	width: 75%;
+}*/
+
+/* Header */
+
+header{
+	padding: 8px 10px;
+	background: #EFEFEF;
+	width: 100%;
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+	z-index: 100; /* o superior */
+}
+
+header #logo {
+	width: 40%;
+	float: left;
+}
+
+header #logo img {
+	width: 40%;
+}
+
+header nav {
+	width: 60%;
+	float: right;
+	padding: 10px 0px;
+	margin-top: 10px;
+}
+
+header nav ul{
+	float: right;
+}
+
+header nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 30px;
+}
+
+header nav ul li a{
+	font-size: 1.3em;
+	font-weight: 300;
+	color: #707070;
+}
+
+#busqueda {
+	background: #838383;
+	padding: 10px 0px;
+	clear: both;
+}
+
+/* Barra de entradas */
+
+#main {
+	overflow: hidden;
+
+}
+
+#main #articles_list {
+	clear: both;
+	width: 75%;
+	float: left;
+	margin-top: 5px;
+}
+
+#main #articles_list .bajada {
+	margin-bottom: 10px;
+}
+
+#main #articles_list article .extracto {
+	display: inline;
+}
+
+#main #articles_list ul {
+	list-style: none;
+	display: inline-block;
+}
+
+#main #articles_list article {
+	margin-bottom: 40px;
+	margin-right: 4%;
+	padding-bottom: 40px;
+	overflow: hidden;
+}
+
+#main #articles_list article .lista-etiquetas ul li {
+	display: inline;
+}
+
+#main #articles_list article #thumb {
+	width: 35%;
+	margin-right: 4%;
+	float: left;
+	margin-bottom: 2%;
+}
+
+#main #articles_list article #thumb img {
+	width: 100%;
+	height: 100%;
+}
+
+#main #articles_list article #article_single {
+	width: 100%;
+	margin-right: 4%;
+	float: left;
+}
+
+/* Estilos etiqueta individual */
+
+#main #title_label {
+	background: #727272;
+	color: #FFFFFF;
+	padding: 10px 10px;
+	width: 100%;
+}
+
+
+#main #title_label h1 {
+	color: #D8D8D8;
+	font-weight: 700;
+}
+
+#main #title_label span {
+	font-size: 2.5em;
+}
+
+/* Estilos entrada individual */
+
+#main #articles_single {
+	clear: both;
+	width: 75%;
+	float: left;
+}
+
+#main #articles_single article {
+	margin-bottom: 40px;
+	margin-right: 4%;
+	padding-bottom: 40px;
+	overflow: hidden;
+}
+
+
+#main #articles_single article #thumb_single {
+	width: auto;
+}
+
+#main #articles_single article .title_single {
+	width: 100%;
+	margin-right: 4%;
+	text-align: center;
+	background: #640000;
+	color: #FFFFFF;
+	padding: 5px 5px;
+}
+
+#main #articles_single article .title_single .bajada_single .lista-etiquetas ul li {
+	display: inline;
+}
+
+#main #articles_single article .title_single h1 {
+	font-weight: 700;
+}
+
+#main #articles_single article .title_single a {
+	color: #FFFFFF;
+}
+
+#main #articles_single article .title_single .bajada_single {
+	font-size: 1.0em;
+	font-weight: 400;
+	text-align: center;
+}
+
+#main #articles_single article .tags {
+	font-size: 1.0em;
+	text-align: center;
+	border-top: 2px solid #AAAAAA;
+	border-bottom: 2px solid #AAAAAA;
+	padding: 5px;
+}
+
+/* Barra lateral */
+
+#main aside {
+	width: 25%;
+	float: left;
+}
+
+#main .widget{
+	width: 100%;
+}
+
+.widget ul li {
+	list-style-type: none;
+}
+
+/* Footer */
+
+footer {
+	background-color: #3B0000;
+}
+
+footer .widget a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+footer #copyright {
+	width: 100%;
+	clear: both;
+	text-align: center;
+	padding: 10px;
+	font-size: .9rem;
+}
+
+footer #copyright {
+	background-color: #5A5A5A;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
